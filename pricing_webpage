@@ -1,0 +1,225 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Galileo Design</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex size-full min-h-screen flex-col bg-[#FFFFFF] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#F4F4F4] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#141414]">
+            <div class="size-4">
+              <img src="logocrop.jpeg" alt="Logo" />
+              <!-- <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"> -->
+                <g clip-path="url(#clip0_6_319)">
+                  <path
+                    d="M8.57829 8.57829C5.52816 11.6284 3.451 15.5145 2.60947 19.7452C1.76794 23.9758 2.19984 28.361 3.85056 32.3462C5.50128 36.3314 8.29667 39.7376 11.8832 42.134C15.4698 44.5305 19.6865 45.8096 24 45.8096C28.3135 45.8096 32.5302 44.5305 36.1168 42.134C39.7033 39.7375 42.4987 36.3314 44.1494 32.3462C45.8002 28.361 46.2321 23.9758 45.3905 19.7452C44.549 15.5145 42.4718 11.6284 39.4217 8.57829L24 24L8.57829 8.57829Z"
+                    fill="currentColor"
+                  ></path>
+                </g>
+                <defs>
+                  <clipPath id="clip0_6_319"><rect width="48" height="48" fill="white"></rect></clipPath>
+                </defs>
+              </svg>
+            </div>
+            <h2 class="text-[#141414] text-lg font-bold leading-tight tracking-[-0.015em]">WorkUnite</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Services</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Pricing</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Why WorkUnite</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Resources</a>
+              <a class="text-[#141414] text-sm font-medium leading-normal" href="#">Company</a>
+            </div>
+            <button
+              class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 px-4 bg-[#F4F4F4] text-[#141414] text-sm font-bold leading-normal tracking-[0.015em]"
+            >
+              <span class="truncate">Get a demo</span>
+            </button>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex flex-wrap justify-between gap-3 p-4">
+              <p class="text-[#141414] text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">Grow your business with WorkUnite</p>
+            </div>
+            <h2 class="text-[#141414] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Choose the plan that's right for you</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(228px,1fr))] gap-2.5 px-4 py-3 @3xl:grid-cols-4">
+              <div class="flex flex-1 flex-col gap-4 rounded-xl border border-solid border-[#E0E0E0] bg-[#FFFFFF] p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-[#141414] text-base font-bold leading-tight">Starter</h1>
+                  <span class="text-[#141414] text-4xl font-black leading-tight tracking-[-0.033em]">INR25,000</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    For businesses just getting started
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    For businesses serious about growth
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    For established businesses looking to scale
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    For large businesses &amp; agencies
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 rounded-xl border border-solid border-[#E0E0E0] bg-[#FFFFFF] p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-[#141414] text-base font-bold leading-tight">Professional</h1>
+                  <span class="text-[#141414] text-4xl font-black leading-tight tracking-[-0.033em]">INR17,000</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Dedicated account manager
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad strategy &amp; creation
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad spend up to INR1,500
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Monthly reporting
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 rounded-xl border border-solid border-[#E0E0E0] bg-[#FFFFFF] p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-[#141414] text-base font-bold leading-tight">Business</h1>
+                  <span class="text-[#141414] text-4xl font-black leading-tight tracking-[-0.033em]">INR14,000</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Dedicated account manager
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad strategy &amp; creation
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad spend up to $1,500
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Monthly reporting
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-1 flex-col gap-4 rounded-xl border border-solid border-[#E0E0E0] bg-[#FFFFFF] p-6">
+                <div class="flex flex-col gap-1">
+                  <h1 class="text-[#141414] text-base font-bold leading-tight">Enterprise</h1>
+                  <span class="text-[#141414] text-4xl font-black leading-tight tracking-[-0.033em]">Custom</span>
+                </div>
+                <div class="flex flex-col gap-2">
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Dedicated account manager
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad strategy &amp; creation
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Ad spend up to $1,500
+                  </div>
+                  <div class="text-[13px] font-normal leading-normal flex gap-3 text-[#141414]">
+                    <div class="text-[#141414]" data-icon="Check" data-size="20px" data-weight="regular">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                        <path d="M229.66,77.66l-128,128a8,8,0,0,1-11.32,0l-56-56a8,8,0,0,1,11.32-11.32L96,188.69,218.34,66.34a8,8,0,0,1,11.32,11.32Z"></path>
+                      </svg>
+                    </div>
+                    Monthly reporting
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
